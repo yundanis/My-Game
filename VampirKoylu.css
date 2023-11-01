@@ -1,0 +1,422 @@
+body
+{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.cerceve
+{
+    position: absolute;
+    width: 0px;
+    padding-left: 150px;
+    padding-top: 200px;
+    border: 5px solid white;
+    top: 0px;
+    left: 0px;
+}
+.karakter
+{
+    position: absolute;
+    width: 0px;
+    padding-left: 150px;
+    padding-top: 250px;
+    border: 5px solid white;
+    top: 300px;
+    left: 0px;
+}
+.karakter h5
+{
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+.p
+{
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
+.p1
+{
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 35px;
+}
+.p2
+{
+    color: white;
+    position: absolute;
+    top: 65px;
+    left: 35px;
+}
+.p3
+{
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 35px;
+}
+.p4
+{
+    color: white;
+    position: absolute;
+    top: 95px;
+    left: 35px;
+}
+.p5
+{
+    color: white;
+    position: absolute;
+    top: 110px;
+    left: 35px;
+}
+.p6
+{
+    color: white;
+    position: absolute;
+    top: 125px;
+    left: 35px;
+}
+.p7
+{
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 35px;
+}
+.p8
+{
+    color: white;
+    position: absolute;
+    top: 155px;
+    left: 35px;
+}
+.p9
+{
+    color: white;
+    position: absolute;
+    top: 170px;
+    left: 35px;
+}
+h2
+{
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+#map
+{
+    position: absolute;
+    width: 0px;
+    padding-left: 20cm;
+    padding-top: 15cm;
+    background-color: #121212;
+    border: 5px solid white;
+    top: 0px;
+    left: 10cm;
+}
+.void
+{
+    position: absolute;
+    width: 0px;
+    padding-left: 150px;
+    padding-top: 355px;
+    border: 3px solid white;
+    top: 0cm;
+    left: 5.1cm;
+}
+.button
+{   
+    width: 120px; 
+    height: 25px; 
+    background: lightblue; 
+    position: absolute; 
+}
+.b1 
+{   
+    top: 5px; 
+    left: 15px; 
+}
+.b2 
+{ 
+    top: 40px; 
+    left: 15px; 
+}
+.b3 
+{ 
+    top: 75px; 
+    left: 15px; 
+}
+.b4 
+{ 
+    top: 110px; 
+    left: 15px; 
+}
+.b5 
+{ 
+    top: 145px; 
+    left: 15px; 
+}
+.b6 
+{ 
+    top: 180px; 
+    left: 15px; 
+}
+.b7 
+{ 
+    top: 215px; 
+    left: 15px; 
+}
+.b8 
+{ 
+    top: 250px; 
+    left: 15px; 
+}
+.b9 
+{ 
+    top: 285px; 
+    left: 15px; 
+}
+.b10 
+{ 
+    top: 320px; 
+    left: 15px; 
+}
+.roof
+{
+    position: absolute;
+    width: 0cm;
+    height: 0cm;
+    bottom: 50px;
+    border-bottom: 25px solid brown;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+} 
+.door
+{
+    position: absolute;
+    width: 1cm;
+    height: 1cm;
+    left: 7px;
+    top: 12px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: rgb(49, 17, 17);
+}
+.ev 
+{ 
+    position: absolute; 
+    width: 50px; 
+    height: 50px; 
+    border: 1px solid white; 
+}
+.ev1 
+{ 
+    left: 30px; 
+    top: 30px; 
+    background-color: #87CEFA; 
+}
+.ev2 
+{ 
+    left: 665px; 
+    top: 30px; 
+    background-color: #FFFF00; 
+}
+.ev3 
+{ 
+    left: 230px; 
+    top: 30px; 
+    background-color: #FFC0CB; 
+}
+.ev4 
+{ 
+    left: 30px; 
+    top: 500px; 
+    background-color: #FFA500; 
+}
+.ev5 
+{ 
+    left: 665px; 
+    top: 500px; 
+    background-color: #00FF00; 
+}
+.ev6 
+{ 
+    left: 230px; 
+    top: 500px; 
+    background-color: #800080; 
+}
+.ev7 
+{ 
+    left: 30px; 
+    top: 250px; 
+    background-color: #FF0000; 
+}
+.ev8 
+{ 
+    left: 665px; 
+    top: 250px; 
+    background-color: #FFFFFF; 
+}
+.ev9 
+{ 
+    left: 460px; 
+    top: 30px; 
+    background-color: #c7c7ff; 
+}
+.ev10 
+{ 
+    left: 460px; 
+    top: 500px; 
+    background-color: #FFD700; 
+}
+img
+{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.flame 
+{
+    position: absolute;
+    top: 266px;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 0 70%;
+    box-shadow: -1px -1px 0 0px orange, -2px -2px 0 0px yellow;
+    animation: flicker 5s ease infinite;
+}
+.f1 
+{
+    left: 370px;
+}
+.f3 
+{
+    transform: rotateZ(45deg);
+    left: 376px;
+}
+.f2 
+{
+    transform: rotateZ(90deg);
+    left: 382px;
+}
+.log 
+{
+    position: absolute;
+    top: 277px;
+    left: 370px;
+    width: 20px;
+    height: 5px;
+    background-color: brown;
+    border-radius: 10px;
+}
+.l1 
+{
+    transform: rotateZ(20deg);
+    box-shadow: 0 0 10px #3e2723;
+}
+.l2 
+{
+    transform: rotateZ(-20deg);
+    box-shadow: 0 0 10px #3e2723;
+}
+.l3 
+{
+    transform: rotate3d(1, 1, 1, 40deg);
+}
+.l4 
+{
+    transform: rotate3d(1, 1, 1, -40deg);
+}
+.loading
+{
+    position: absolute;
+    border: 5px solid white ;
+    width: 100px;
+    height: 100px;
+    top: 400px;
+    left: 215px;
+    border-radius: 50%;
+    border-left-color: transparent;
+    animation: rot 2s linear infinite;
+}
+.timer
+{
+    position: absolute;
+    color: white;
+    top: 445px;
+    left: 255px; 
+}
+@keyframes flicker 
+{
+    0%,
+    100% 
+    {
+        background-color: red;
+        box-shadow: -3px -3px 0 3px orange, -5px -5px 0 5px yellow;
+    }
+    25%,
+    75% 
+    {
+        background-color: red;
+        box-shadow: -3px -3px 0 3px orangered, -6px -6px 0 5px yellow;
+    }
+    50% 
+    {
+        background-color: red;
+        box-shadow: -3px -3px 0 3px orange, -5px -5px 0 5px yellow;
+    }
+}
+@keyframes rot 
+{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to 
+    {
+        transform: rotate(360deg);
+    } 
+}
+.Man
+{
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    top: -100px;
+}
+.road
+{
+    position: absolute;
+    width: 690px;
+    height: 60px;
+    top: 100PX;
+    left: 30px;
+    background-color: #964B00;
+}
+.way
+{
+    top: 400PX;
+    left: 30px;
+}
+.way2
+{
+    width: 60px;
+    height: 300px;
+    top: 120PX;
+    left: 100px;
+}
+.way3
+{
+    width: 60px;
+    height: 300px;
+    top: 120PX;
+    left: 590px;
+}
